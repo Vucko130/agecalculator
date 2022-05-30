@@ -1,0 +1,64 @@
+body { font-family: 'Patua One', cursive; }
+#calendar { text-align:center; }
+#calendar .row { padding:5px; }
+select { font-size:16px; line-height:24px; padding:5px; }
+
+.c-logo {
+  font-family: 'Courgette', cursive;
+  font-size: 1.625rem;
+  margin: 0;
+  text-decoration: none;
+  padding: 1.00rem;
+}
+
+.c-logo__link {
+  color: var(--black);
+  text-decoration: none;
+}
+
+.c-main-menu {
+  font-weight: 500;
+}
+
+.c-main-menu__list {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.c-main-menu__link {
+  color: var(--black);
+  display: inline-block;
+  font-size: 0.875rem;
+  letter-spacing: 0.25rem;
+  margin: 0 0.375rem;
+  padding: 0.625rem;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.o-header {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  padding: 1.25rem;
+}
+
+.o-page {
+  max-width: 100%;
+  overflow-x: hidden;
+  width: 100%;
+}
+
+.u-visually-hidden {
+  clip: rect(1px, 1px, 1px, 1px);
+  -webkit-clip-path: inset(50%);
+          clip-path: inset(50%);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}

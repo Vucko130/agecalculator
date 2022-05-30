@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Age Calculator - ThePuzzles.Eu.Org</title>
+  <link rel = "icon" type = "image/png" href = "./logo.png">
+  <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Patua+One'><link rel="stylesheet" href="./style.css">
+  <link rel='stylesheet' href="https://fonts.googleapis.com/css2?family=Courgette&display=swap"><link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<main id="page" class="o-page">
+  <header class="o-header">
+<h1 class="c-logo"><a class="c-logo__link" href="#" target="_blank">Age Calculator</a></h1>
+<nav class="c-main-menu" aria-labelledby="mainmenulabel">
+      <h2 id="mainmenulabel" class="u-visually-hidden">Main Menu</h2>
+      <ul class="c-main-menu__list">
+        <li><a class="c-main-menu__link" href="#">Home</a></li>
+        <li><a class="c-main-menu__link" href="https://thepuzzles.eu.org/about">About</a></li>
+        <li><a class="c-main-menu__link" href="https://thepuzzles.eu.org/contact">Contact</a></li>
+      </ul>
+    </nav>
+	</header>
+<!-- partial:index.partial.html -->
+<div id="calendar">
+  <h1>Enter Your Birthday</h1>
+  <div>
+    <div class="row">
+       <select name="month" id="month">
+        <option value="0">January</option>
+        <option value="1">February</option>
+        <option value="2">March</option>
+        <option value="3">April</option>
+        <option value="4">May</option>
+        <option value="5">June</option>
+        <option value="6">July</option>
+        <option value="7">August</option>
+        <option value="8">September</option>
+        <option value="9">October</option>
+        <option value="10">November</option>
+        <option value="11">December</option>
+      </select> <select name="day" id="day"></select> <select name="year" id="year"></select>
+  </div>
+	<h2>Your Birth Time</h2>
+    <div class="row">
+      <select name="hour" id="hour"></select> 
+      <select name="minute" id="minute"></select>
+    </div>
+</div>
+  <div id="result">
+    
+  </div>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>
